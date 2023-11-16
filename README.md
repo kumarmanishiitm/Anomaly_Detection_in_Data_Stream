@@ -66,6 +66,11 @@ The Isolation Forest algorithm is optimized for speed and efficiency to handle t
 
 A real-time visualization tool is created to display the data stream and detected anomalies. This tool provides an intuitive interface for monitoring the stream's behavior and identifying instances flagged as anomalies by the algorithms.
 
+## Robust Error Handling and Data Validation:
+
+The Python script has been designed with a strong emphasis on robust error handling and meticulous data validation to bolster the reliability and integrity of the anomaly detection system. Comprehensive error-handling mechanisms have been strategically implemented, anticipating and gracefully managing exceptions. This proactive approach mitigates the risk of potential system crashes and ensures accurate interpretation of results.
+
+Moreover, rigorous data validation procedures are in place to enforce adherence to predefined formats and ranges for input data. These validations act as a crucial line of defense, guarding against the impact of erroneous or malicious inputs. By maintaining the integrity of the incoming data, the anomaly detection process operates with enhanced reliability, fortifying the overall resilience of the system.
 
 ## Dependencies
 
