@@ -66,6 +66,33 @@ The Isolation Forest algorithm is optimized for speed and efficiency to handle t
 
 A real-time visualization tool is created to display the data stream and detected anomalies. This tool provides an intuitive interface for monitoring the stream's behavior and identifying instances flagged as anomalies by the algorithms.
 
+
+## Dependencies
+
+- time : Provides time-related functions.
+- random : Used for generating random numbers.
+- numpy : Essential for numerical operations.
+- matplotlib : Enables data visualization with plotting functions.
+- sklearn.ensemble.IsolationForest : Implements the Isolation Forest algorithm for anomaly detection.
+ 
+## Running Code
+
+To run code, install a python3 and then run the following command,
+First install the dependency. 
+```bash
+  pip install -r requirements.txt
+```
+Now, run the script in Linux,
+```bash
+  python3 anomaly_detection.py
+```
+for windows,
+
+```bash
+  python anomaly_detection.py
+```
+
+
 ## Conclusion:
 
 The Isolation Forest algorithm, with its adaptability and efficiency, proves to be a robust choice for real-time anomaly detection in continuous data streams. Comparative analysis with One-Class SVM, LOF, and Neural Network-based approaches provides insights into the strengths and weaknesses of each algorithm in this specific context. The optimized implementation ensures that the system performs efficiently, making it suitable for various applications where timely anomaly detection is crucial.
