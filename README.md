@@ -22,7 +22,7 @@ Here's how the contamination parameter is relevant in the context of data stream
 #### Continuous Learning:
 
 - With the right setting of the contamination parameter, the Isolation Forest algorithm can continuously learn and adapt to the changing characteristics of the data stream, ensuring that the model remains effective in identifying anomalies in real-time
-
+### Other Algorithm
 As a comparative analysis, the performance of Isolation Forest is evaluated against three other algorithms: One-Class SVM (Support Vector Machine), Local Outlier Factor (LOF), and a Neural Network-based approach. Each algorithm is briefly described below:
 #### One-Class SVM:
 
