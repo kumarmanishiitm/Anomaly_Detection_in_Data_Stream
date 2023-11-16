@@ -84,12 +84,12 @@ First install the dependency.
 ```
 Now, run the script in Linux,
 ```bash
-  python3 anomaly_detection.py
+  python3 Anomaly_Detection.py
 ```
 for windows,
 
 ```bash
-  python anomaly_detection.py
+  python Anomaly_Detection.py
 ```
 
 
