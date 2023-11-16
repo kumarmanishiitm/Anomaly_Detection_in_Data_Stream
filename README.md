@@ -68,9 +68,9 @@ A real-time visualization tool is created to display the data stream and detecte
 
 ## Robust Error Handling and Data Validation:
 
-The Python script has been designed with a strong emphasis on robust error handling and meticulous data validation to bolster the reliability and integrity of the anomaly detection system. Comprehensive error-handling mechanisms have been strategically implemented, anticipating and gracefully managing exceptions. This proactive approach mitigates the risk of potential system crashes and ensures accurate interpretation of results.
+The Python script has been designed with a strong emphasis on robust error handling and meticulous data validation to bolster the reliability and integrity of the anomaly detection system. Comprehensive error-handling mechanisms have been strategically implemented, anticipating and gracefully managing exceptions. This proactive approach mitigates the risk of potential system crashes and ensures an accurate interpretation of results.
 
-Moreover, rigorous data validation procedures are in place to enforce adherence to predefined formats and ranges for input data. These validations act as a crucial line of defense, guarding against the impact of erroneous or malicious inputs. By maintaining the integrity of the incoming data, the anomaly detection process operates with enhanced reliability, fortifying the overall resilience of the system.
+Moreover, rigorous data validation procedures are in place to enforce adherence to predefined formats and ranges for input data. These validations act as a crucial line of defence, guarding against the impact of erroneous or malicious inputs. By maintaining the integrity of the incoming data, the anomaly detection process operates with enhanced reliability, fortifying the overall resilience of the system.
 
 ## Dependencies
 
