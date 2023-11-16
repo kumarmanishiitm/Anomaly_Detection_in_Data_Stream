@@ -5,28 +5,26 @@ The purpose of this project is to develop a Python script for efficient data str
 
 ## Algorithm Selection
 For the anomaly detection in continuous data streams, the Isolation Forest algorithm has been chosen as the primary method. This algorithm demonstrates effectiveness in identifying anomalies by isolating them in a relatively small number of steps compared to normal instances. Additionally, it is well-suited for adaptability to concept drift and seasonal variations due to its tree-based nature.
-## Parameters in Isolation Forest:
+#### Parameters in Isolation Forest:
 Anomaly detection in a data stream, the contamination parameter becomes particularly important for algorithms like Isolation Forest and One-Class SVM, which are commonly used for real-time anomaly detection. While Random Forest is not typically used in streaming scenarios, I'll focus on Isolation Forest and One-Class SVM in this context.
 
 In the Isolation Forest algorithm for anomaly detection in data streams, the contamination parameter represents the expected proportion of anomalies in the incoming data stream. Since data streams are dynamic and can exhibit concept drift, setting an appropriate contamination parameter is crucial for maintaining the algorithm's effectiveness over time.
 
 Here's how the contamination parameter is relevant in the context of data streams:
-### Adaptability to Concept Drift:
+#### Adaptability to Concept Drift:
 - As the data stream evolves, the nature of anomalies may change. The contamination parameter allows for adaptability by adjusting the threshold for anomaly detection. A dynamic setting might be needed to capture variations in the data stream.
 ### Real-time Detection Sensitivity:
 - In a streaming environment, the ability to quickly identify anomalies is crucial. The contamination parameter influences the sensitivity of the algorithm, balancing between detecting anomalies promptly and minimizing false positives.
-### Continuous Learning:
+#### Continuous Learning:
 - With the right setting of the contamination parameter, the Isolation Forest algorithm can continuously learn and adapt to the changing characteristics of the data stream, ensuring that the model remains effective in identifying anomalies in real-time
 
 As a comparative analysis, the performance of Isolation Forest is evaluated against three other algorithms: One-Class SVM (Support Vector Machine), Local Outlier Factor (LOF), and a Neural Network-based approach. Each algorithm is briefly described below:
-### One-Class SVM:
+#### One-Class SVM:
 - SVM is a powerful algorithm for classification tasks, and in the one-class variant, it aims to identify normal instances and treat the rest as anomalies. It is known for its effectiveness in high-dimensional spaces.
-### Local Outlier Factor (LOF):
+#### Local Outlier Factor (LOF):
 - LOF is a density-based method that compares the local density deviation of a data point with its neighbors. It is suitable for identifying outliers in datasets with varying densities.
-### Neural Network-based Algorithm:
+#### Neural Network-based Algorithm:
 - A Neural Network is a versatile approach, capable of learning complex patterns in data. A specifically designed neural network is implemented for anomaly detection in this context.
-## 
-
 
 ## Data Stream Simulation
 
