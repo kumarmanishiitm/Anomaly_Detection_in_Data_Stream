@@ -34,7 +34,7 @@ As a comparative analysis, the performance of the Isolation Forest is evaluated 
 
 - A Neural Network is a versatile approach, capable of learning complex patterns in data. A specifically designed neural network is implemented for anomaly detection in this context.
 
-## Data Stream Simulation
+## Data Stream Simulation:
 
 To test the algorithm, a function is designed to simulate a data stream. This simulation includes regular patterns, seasonal elements, and random noise to create a realistic representation of real-time data. This simulated data stream serves as a foundation for evaluating the algorithm's performance.
 
@@ -72,7 +72,7 @@ The Python script has been designed with a strong emphasis on robust error handl
 
 Moreover, rigorous data validation procedures are in place to enforce adherence to predefined formats and ranges for input data. These validations act as a crucial line of defence, guarding against the impact of erroneous or malicious inputs. By maintaining the integrity of the incoming data, the anomaly detection process operates with enhanced reliability, fortifying the overall resilience of the system.
 
-## Dependencies
+## Dependencies:
 
 #### time:
 
@@ -94,7 +94,7 @@ Usage in Code: Used for managing time-related aspects, such as obtaining the cur
 - Purpose: Implements the Isolation Forest algorithm for anomaly detection.
 - Usage in Code: The core algorithm for detecting anomalies in the data stream. The IsolationForest class from the scikit-learn library is utilized to train the model, predict anomaly scores, and identify anomalies based on predefined contamination levels.
  
-## Running Code
+## Running Code:
 
 To run code, install a python3 and then run the following command,
 First install the dependency. 
