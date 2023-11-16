@@ -69,11 +69,25 @@ A real-time visualization tool is created to display the data stream and detecte
 
 ## Dependencies
 
-- time : Provides time-related functions.
-- random : Used for generating random numbers.
-- numpy : Essential for numerical operations.
-- matplotlib : Enables data visualization with plotting functions.
-- sklearn.ensemble.IsolationForest : Implements the Isolation Forest algorithm for anomaly detection.
+#### time:
+
+- Purpose: Provides time-related functions.
+Usage in Code: Used for managing time-related aspects, such as obtaining the current time for periodicity in synthetic data generation and introducing a delay between iterations.
+#### random:
+- Purpose: Used for generating random numbers.
+- Usage in Code: Generates random noise to simulate realistic variations in the data stream.
+#### numpy:
+
+- Purpose: Essential for numerical operations.
+- Usage in Code: Utilized for mathematical operations, such as creating regular and seasonal patterns using the hyperbolic tangent function, generating random noise, and reshaping arrays for model training.
+#### matplotlib:
+
+- Purpose: Enables data visualization with plotting functions.
+- Usage in Code: Used for real-time visualization of the data stream and detected anomalies. Matplotlib is employed to create line plots for the data stream and scatter plots for anomalies.
+#### sklearn.ensemble.IsolationForest:
+
+- Purpose: Implements the Isolation Forest algorithm for anomaly detection.
+- Usage in Code: The core algorithm for detecting anomalies in the data stream. The IsolationForest class from the scikit-learn library is utilized to train the model, predict anomaly scores, and identify anomalies based on predefined contamination levels.
  
 ## Running Code
 
